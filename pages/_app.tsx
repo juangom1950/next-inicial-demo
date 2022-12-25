@@ -3,7 +3,7 @@ import { AppProps } from 'next/app';
 
 import '../styles/globals.css';
 
-
+// You can find this in the official documentation
 type NextPageWithLayout = NextPage & {
   getLayout?: ( page: JSX.Element ) => JSX.Element;
 }
